@@ -1,0 +1,848 @@
+﻿Log file open, 02/22/17 14:50:15
+LogInit:Display: Running engine for game: VRWheelchairTest
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-629608685) SRandInit(-629608685).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.068775
+LogPluginManager: Loaded Plugin Paper2D, From E:/Unreal Engine/UE_4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin GestureTrackerVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/GestureTrackerVR/GestureTrackerVR.uplugin
+LogPluginManager: Loaded Plugin RunebergVRPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/RunebergVRPlugin/RunebergVRPlugin.uplugin
+LogPluginManager: Loaded Plugin ShadowMocap, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/ShadowMocap/ShadowMocap.uplugin
+LogPluginManager: Loaded Plugin Substance, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From E:/Unreal Engine/UE_4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From E:/Unreal Engine/UE_4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From E:/Unreal Engine/UE_4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From E:/Unreal Engine/UE_4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From E:/Unreal Engine/UE_4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From E:/Unreal Engine/UE_4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Unreal Engine/UE_4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.02.22-22.50.15:790][  0]LogConsoleManager:Display: Setting the console variable 'r.RHICmdBypass' with 'SetByProjectSetting' was ignored as it is lower priority than the previous 'SetBySystemSettingsIni'
+[2017.02.22-22.50.15:793][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.22-22.50.15:793][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.02.22-22.50.15:838][  0]LogInit: Computer: AI911LAB238VIV
+[2017.02.22-22.50.15:838][  0]LogInit: User: StudentUser
+[2017.02.22-22.50.15:838][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.02.22-22.50.15:838][  0]LogInit: High frequency timer resolution =3.410070 MHz
+[2017.02.22-22.50.15:838][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.02.22-22.50.15:838][  0]LogMemory: Platform Memory Stats for Windows
+[2017.02.22-22.50.15:838][  0]LogMemory: Process Physical Memory: 259.17 MB used, 259.17 MB peak
+[2017.02.22-22.50.15:839][  0]LogMemory: Process Virtual Memory: 260.18 MB used, 260.18 MB peak
+[2017.02.22-22.50.15:839][  0]LogMemory: Physical Memory: 5401.48 MB used, 16291.25 MB total
+[2017.02.22-22.50.15:839][  0]LogMemory: Virtual Memory: 624.27 MB used, 134217728.00 MB total
+[2017.02.22-22.50.17:111][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.02.22-22.50.24:970][  0]LogD3D11RHI: D3D11 adapters:
+[2017.02.22-22.50.24:991][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.02.22-22.50.24:992][  0]LogD3D11RHI:       4058/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.02.22-22.50.24:993][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.02.22-22.50.24:993][  0]LogD3D11RHI:       0/0/8145 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.02.22-22.50.24:993][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.02.22-22.50.24:998][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.02.22-22.50.24:998][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.02.22-22.50.24:998][  0]LogWindows: EnumDisplayDevices:
+[2017.02.22-22.50.24:998][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.02.22-22.50.24:998][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.22-22.50.24:998][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.22-22.50.24:998][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.02.22-22.50.24:998][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.02.22-22.50.24:998][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.02.22-22.50.24:998][  0]LogD3D11RHI:   Driver Version: 369.09 (internal:21.21.13.6909, unified:369.09)
+[2017.02.22-22.50.24:998][  0]LogD3D11RHI:      Driver Date: 8-1-2016
+[2017.02.22-22.50.24:998][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.02.22-22.50.25:013][  0]LogD3D11RHI: Async texture creation enabled
+[2017.02.22-22.50.25:022][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.02.22-22.50.25:023][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Intermediate/Shaders/WorkingDirectory/7164/).
+[2017.02.22-22.50.25:023][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/STUDEN~1/AppData/Local/Temp/UnrealShaderWorkingDir/530CF34D40602917A88B1C91D5AFAE5B/'.
+[2017.02.22-22.50.25:023][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.02.22-22.50.33:717][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.02.22-22.50.33:725][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.02.22-22.50.33:732][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.02.22-22.50.33:739][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.02.22-22.50.33:746][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.02.22-22.50.33:767][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.02.22-22.50.33:774][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.02.22-22.50.33:780][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.02.22-22.50.33:786][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.02.22-22.50.33:792][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.02.22-22.50.33:799][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.02.22-22.50.33:811][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.02.22-22.50.33:811][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.02.22-22.50.33:813][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.02.22-22.50.33:896][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.02.22-22.50.33:902][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.02.22-22.50.33:958][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.02.22-22.50.33:988][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.02.22-22.50.34:016][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.02.22-22.50.34:035][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.02.22-22.50.34:035][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.02.22-22.50.34:433][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.02.22-22.50.35:014][  0]LogDerivedDataCache: Loaded boot cache 0.58s 91MB C:/Users/StudentUser/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.22-22.50.35:014][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/StudentUser/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2017.02.22-22.50.35:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.02.22-22.50.35:014][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.02.22-22.50.35:014][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.02.22-22.50.35:014][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.02.22-22.50.35:030][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.02.22-22.50.35:041][  0]LogDerivedDataCache: Using Local data cache path C:/Users/StudentUser/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.02.22-22.50.38:667][  0]LogInit: Selected Device Profile: [Windows]
+[2017.02.22-22.50.38:669][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.02.22-22.50.38:772][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.02.22-22.50.38:772][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.02.22-22.50.38:772][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.02.22-22.50.38:844][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.02.22-22.50.39:343][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: vrwheelchairtest, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 471808494
+[2017.02.22-22.50.39:394][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.02.22-22.50.39:396][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Marketplace/RunebergVRPlugin/Content/. Error: The system cannot find the file specified. (0x00000002)
+[2017.02.22-22.50.39:437][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.041116 seconds
+[2017.02.22-22.50.39:441][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2017.02.22-22.50.39:441][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2017.02.22-22.50.39:441][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.02.22-22.50.39:446][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.02.22-22.50.41:389][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.22-22.50.41:389][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.02.22-22.51.15:041][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.02.22-22.51.15:161][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.02.22-22.51.15:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.02.22-22.51.15:997][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.51.16:153][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.51.16:171][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.51.16:211][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.51.18:069][  0]LogEngine: Initializing Engine...
+[2017.02.22-22.51.18:112][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-A4D81BA4
+[2017.02.22-22.51.18:279][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.02.22-22.51.18:290][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.22-22.51.18:300][  0]LogInit: FAudioDevice initialized.
+[2017.02.22-22.51.18:345][  0]LogDerivedDataCache: Saved boot cache 0.04s 91MB C:/Users/StudentUser/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2017.02.22-22.51.18:357][  0]LogInit: Texture streaming: Enabled
+[2017.02.22-22.51.18:554][  0]LogInit: Transaction tracking system initialized
+[2017.02.22-22.51.18:725][  0]BlueprintLog: New page: Editor Load
+[2017.02.22-22.51.19:228][  0]LocalizationService: Info Localization service is disabled
+[2017.02.22-22.51.19:793][  0]LogConsoleResponse:Display: 
+[2017.02.22-22.51.20:737][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/' took 0.02s
+[2017.02.22-22.51.20:737][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.02.22-22.51.20:737][  0]LogCook:Display: Mobile HDR setting 1
+[2017.02.22-22.51.22:531][  0]SourceControl: Info Source control is disabled
+[2017.02.22-22.51.22:807][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 E:/Unreal Engine/UE_4.13/FeaturePacks/StarterContent.upack)
+[2017.02.22-22.51.23:157][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.02.22-22.51.23:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.02.22-22.51.23:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.02.22-22.51.23:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.02.22-22.51.23:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.02.22-22.51.23:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.02.22-22.51.23:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.02.22-22.51.23:377][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.02.22-22.51.23:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.02.22-22.51.23:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.02.22-22.51.23:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.02.22-22.51.23:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.02.22-22.51.23:553][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.02.22-22.51.23:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.02.22-22.51.23:626][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.02.22-22.51.23:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.02.22-22.51.23:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.02.22-22.51.23:698][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.02.22-22.51.23:724][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Fire01.uasset"
+[2017.02.22-22.51.23:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.02.22-22.51.23:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.02.22-22.51.23:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.02.22-22.51.23:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Light01.uasset"
+[2017.02.22-22.51.23:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.02.22-22.51.23:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Light02.uasset"
+[2017.02.22-22.51.23:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.02.22-22.51.23:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.02.22-22.51.24:024][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.02.22-22.51.24:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.02.22-22.51.24:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.02.22-22.51.24:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.02.22-22.51.24:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.02.22-22.51.24:326][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.02.22-22.51.24:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.02.22-22.51.24:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Steam01.uasset"
+[2017.02.22-22.51.24:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.02.22-22.51.24:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.02.22-22.51.24:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.02.22-22.51.24:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.02.22-22.51.24:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.02.22-22.51.24:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.02.22-22.51.24:556][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.02.22-22.51.24:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.02.22-22.51.24:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.02.22-22.51.24:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.02.22-22.51.24:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.02.22-22.51.24:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.02.22-22.51.24:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.02.22-22.51.24:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.02.22-22.51.24:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.02.22-22.51.24:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.02.22-22.51.24:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.02.22-22.51.32:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.02.22-22.51.32:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.02.22-22.51.32:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.02.22-22.51.33:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Maps/StarterMap.umap"
+[2017.02.22-22.51.33:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.02.22-22.51.33:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.02.22-22.51.33:252][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.02.22-22.51.33:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.02.22-22.51.33:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.02.22-22.51.33:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.02.22-22.51.33:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.02.22-22.51.33:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.02.22-22.51.33:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.02.22-22.51.33:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.02.22-22.51.33:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.02.22-22.51.33:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.02.22-22.51.33:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.02.22-22.51.33:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.02.22-22.51.33:658][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.02.22-22.51.33:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.02.22-22.51.33:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.02.22-22.51.33:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.02.22-22.51.33:781][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.02.22-22.51.33:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.02.22-22.51.33:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.02.22-22.51.33:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.02.22-22.51.33:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.02.22-22.51.34:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.02.22-22.51.34:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.02.22-22.51.34:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.02.22-22.51.34:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.02.22-22.51.34:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.02.22-22.51.34:280][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.02.22-22.51.34:286][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.02.22-22.51.34:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.02.22-22.51.34:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.02.22-22.51.34:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.02.22-22.51.34:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.02.22-22.51.34:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.02.22-22.51.34:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.02.22-22.51.34:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.02.22-22.51.34:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.02.22-22.51.34:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.02.22-22.51.34:506][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.02.22-22.51.34:538][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.02.22-22.51.34:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.02.22-22.51.34:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.02.22-22.51.34:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.02.22-22.51.34:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.02.22-22.51.34:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.02.22-22.51.34:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.02.22-22.51.34:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.02.22-22.51.34:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.02.22-22.51.34:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.02.22-22.51.34:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.02.22-22.51.34:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.02.22-22.51.34:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.02.22-22.51.34:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.02.22-22.51.34:900][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.02.22-22.51.34:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.02.22-22.51.34:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.02.22-22.51.34:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.02.22-22.51.35:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.02.22-22.51.35:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.02.22-22.51.35:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.02.22-22.51.35:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.02.22-22.51.35:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.02.22-22.51.35:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.02.22-22.51.35:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Door.uasset"
+[2017.02.22-22.51.35:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.02.22-22.51.35:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.02.22-22.51.35:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.02.22-22.51.35:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.02.22-22.51.35:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.02.22-22.51.35:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.02.22-22.51.35:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.02.22-22.51.35:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.02.22-22.51.35:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.02.22-22.51.35:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.02.22-22.51.35:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.02.22-22.51.35:682][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.02.22-22.51.35:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.02.22-22.51.35:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.02.22-22.51.35:802][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.02.22-22.51.35:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.02.22-22.51.35:827][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.02.22-22.51.35:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.02.22-22.51.35:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.02.22-22.51.35:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.02.22-22.51.35:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.02.22-22.51.35:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.02.22-22.51.35:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.02.22-22.51.35:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.02.22-22.51.36:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.02.22-22.51.36:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.02.22-22.51.36:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.02.22-22.51.36:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.02.22-22.51.36:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.02.22-22.51.36:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.02.22-22.51.36:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.02.22-22.51.36:187][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.02.22-22.51.36:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.02.22-22.51.36:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.02.22-22.51.36:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.02.22-22.51.36:328][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.02.22-22.51.36:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.02.22-22.51.36:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.02.22-22.51.36:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.02.22-22.51.36:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.02.22-22.51.36:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.02.22-22.51.36:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.02.22-22.51.36:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.02.22-22.51.36:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.02.22-22.51.36:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.02.22-22.51.36:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.02.22-22.51.37:195][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.02.22-22.51.37:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.02.22-22.51.37:470][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.02.22-22.51.37:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.02.22-22.51.37:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.02.22-22.51.37:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.02.22-22.51.38:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.02.22-22.51.38:130][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.02.22-22.51.38:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.02.22-22.51.38:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.02.22-22.51.38:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.02.22-22.51.38:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.02.22-22.51.38:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.02.22-22.51.38:777][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.02.22-22.51.38:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.02.22-22.51.38:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.02.22-22.51.38:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.02.22-22.51.38:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.02.22-22.51.39:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.02.22-22.51.39:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.02.22-22.51.39:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.02.22-22.51.39:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.02.22-22.51.39:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.02.22-22.51.39:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.02.22-22.51.39:668][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.02.22-22.51.39:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.02.22-22.51.39:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.02.22-22.51.40:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.02.22-22.51.40:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.02.22-22.51.40:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.02.22-22.51.40:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.02.22-22.51.40:632][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.02.22-22.51.40:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.02.22-22.51.40:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.02.22-22.51.40:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.02.22-22.51.41:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.02.22-22.51.41:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.02.22-22.51.41:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.02.22-22.51.41:389][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.02.22-22.51.41:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.02.22-22.51.41:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.02.22-22.51.41:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.02.22-22.51.41:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.02.22-22.51.42:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.02.22-22.51.42:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.02.22-22.51.42:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.02.22-22.51.42:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.02.22-22.51.42:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.02.22-22.51.43:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.02.22-22.51.43:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.02.22-22.51.43:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.02.22-22.51.43:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.02.22-22.51.44:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.02.22-22.51.44:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.02.22-22.51.44:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.02.22-22.51.44:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.02.22-22.51.44:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.02.22-22.51.45:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.02.22-22.51.45:317][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.02.22-22.51.45:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.02.22-22.51.45:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.02.22-22.51.45:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.02.22-22.51.45:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.02.22-22.51.46:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.02.22-22.51.46:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.02.22-22.51.46:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.02.22-22.51.46:342][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.02.22-22.51.46:509][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.02.22-22.51.46:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.02.22-22.51.46:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.02.22-22.51.47:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.02.22-22.51.47:386][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.02.22-22.51.47:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.02.22-22.51.47:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.02.22-22.51.47:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.02.22-22.51.48:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.02.22-22.51.48:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.02.22-22.51.48:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.02.22-22.51.48:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.02.22-22.51.48:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.02.22-22.51.48:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.02.22-22.51.48:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.02.22-22.51.48:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.02.22-22.51.48:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.02.22-22.51.49:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.02.22-22.51.49:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.02.22-22.51.49:338][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.02.22-22.51.49:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.02.22-22.51.49:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.02.22-22.51.49:716][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.02.22-22.51.49:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.02.22-22.51.49:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.02.22-22.51.49:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.02.22-22.51.50:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.02.22-22.51.50:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.02.22-22.51.50:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.02.22-22.51.50:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.02.22-22.51.50:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.02.22-22.51.50:616][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.02.22-22.51.50:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.02.22-22.51.50:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.02.22-22.51.54:940][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2017.02.22-22.51.57:954][  0]LogSavePackage: Save=945.55ms
+[2017.02.22-22.51.57:954][  0]LogSavePackage: Moving '../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Saved/Floor_400x400114D90244576A6DBBCFCFB9559A80DBE.tmp' to '../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.02.22-22.51.58:002][  0]LogSavePackage:Display: Finished SavePackage ../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.02.22-22.51.58:034][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.02.22-22.51.58:036][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/VirtualRealityBP/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.51.58:059][  0]LogEditorServer:Warning: Can't find file '../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/VirtualRealityBP/Maps/MainMenu.umap'
+[2017.02.22-22.51.58:059][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.51.58:090][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.21ms to complete.
+[2017.02.22-22.51.58:090][  0]LogFileHelpers: Loading map 'MainMenu' took 0.054
+[2017.02.22-22.52.04:913][  0]LogCollectionManager: Loaded 0 collections in 0.001334 seconds
+[2017.02.22-22.52.06:888][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Saved/Collections/' took 0.01s
+[2017.02.22-22.52.06:888][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/Developers/StudentUser/Collections/' took 0.01s
+[2017.02.22-22.52.06:888][  0]LogFileCache: Scanning file cache for directory 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/Collections/' took 0.01s
+[2017.02.22-22.52.06:888][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.02.22-22.52.07:131][  0]LogContentBrowser: Native class hierarchy populated in 0.1045 seconds. Added 2164 classes and 432 folders.
+[2017.02.22-22.52.07:915][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.02.22-22.52.07:915][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.001 s
+[2017.02.22-22.52.08:011][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2017.02.22-22.52.08:376][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.22-22.52.11:896][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.02.22-22.52.12:466][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.02.22-22.52.17:289][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.02.22-22.52.18:735][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.22-22.52.18:994][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.02.22-22.52.18:994][  0]LogLoad: (Engine Initialization) Total time: 131.26 seconds
+[2017.02.22-22.52.18:994][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.23 seconds
+[2017.02.22-22.52.18:994][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.02.22-22.52.18:994][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.02.22-22.52.19:003][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.22-22.52.19:003][  0]LogOcInput: OculusInput pre-init called
+[2017.02.22-22.52.20:620][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.02.22-22.52.23:798][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2017.02.22-22.52.23:833][  1]LogFileCache: Retrieving MD5 hashes for directory 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/' took 4.67s
+[2017.02.22-22.52.24:184][  4]LogAssetRegistry: Asset discovery search completed in 104.8114 seconds
+[2017.02.22-22.52.24:184][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.02.22-22.52.24:184][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.02.22-22.52.42:196][747]LogAIModule: Creating AISystem for world VRWheelchairTestMap
+[2017.02.22-22.52.44:261][900]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.02.22-22.52.44:262][900]LightingResults: New page: Lighting Build
+[2017.02.22-22.52.44:290][900]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2017.02.22-22.52.44:290][900]LoadErrors: New page: Loading map: VRWheelchairTestMap.umap
+[2017.02.22-22.52.44:304][900]MapCheck: New page: Map Check
+[2017.02.22-22.52.44:304][900]LightingResults: New page: Lighting Build
+[2017.02.22-22.52.44:895][900]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.02.22-22.52.44:944][900]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.02.22-22.52.44:987][900]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.23ms to complete.
+[2017.02.22-22.52.44:988][900]LogFileHelpers: Loading map 'VRWheelchairTestMap' took 0.737
+[2017.02.22-22.52.54:845][999]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap'
+[2017.02.22-22.52.54:895][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.02.22-22.52.54:967][999]PIE: New page: PIE session: VRWheelchairTestMap (Feb 22, 2017, 6:52:54 AM)
+[2017.02.22-22.52.54:989][999]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/IslandMaps/UEDPIE_0_VRWheelchairTestMap
+[2017.02.22-22.52.55:046][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057235s)
+[2017.02.22-22.52.55:046][999]LogAIModule: Creating AISystem for world VRWheelchairTestMap
+[2017.02.22-22.52.55:060][999]LogPlayLevel: PIE: World Init took: (0.014013s)
+[2017.02.22-22.52.55:060][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap to /Game/VirtualRealityBP/Maps/IslandMaps/UEDPIE_0_VRWheelchairTestMap.VRWheelchairTestMap (0.071760s)
+[2017.02.22-22.52.55:134][999]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.02.22-22.52.55:162][999]LogInit: FAudioDevice initialized.
+[2017.02.22-22.52.55:409][999]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.02.22-22.52.55:427][999]LogWorld: Game class is 'GameMode'
+[2017.02.22-22.52.55:565][999]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/IslandMaps/UEDPIE_0_VRWheelchairTestMap.VRWheelchairTestMap up for play (max tick rate 0) at 2017.02.22-14.52.55
+[2017.02.22-22.52.55:675][999]LogWorld: Bringing up level for play took: 0.104669
+[2017.02.22-22.52.55:872][999]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.02.22-22.52.55:873][999]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.52.55:895][999]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2017.02.22-22.52.55:895][999]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.52.56:180][999]Cmd: stat fps
+[2017.02.22-22.52.56:480][999]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2017.02.22-22.52.56:486][999]PIE: Info Play in editor start time for /Game/VirtualRealityBP/Maps/IslandMaps/UEDPIE_0_VRWheelchairTestMap 1.01
+[2017.02.22-22.52.56:486][999]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap'
+[2017.02.22-22.52.56:787][  0]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:2577).
+[2017.02.22-22.53.54:300][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap'
+[2017.02.22-22.53.54:487][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel' has LevelScriptBlueprint '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap' with GeneratedClass '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap_C' with ClassGeneratedBy '/Game/VirtualRealityBP/Maps/IslandMaps/VRWheelchairTestMap.VRWheelchairTestMap:PersistentLevel.VRWheelchairTestMap'
+[2017.02.22-22.53.58:328][ 72]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.02.22-22.53.58:859][ 73]Cmd: QUIT_EDITOR
+[2017.02.22-22.53.58:978][ 73]LogExit: Preparing to exit.
+[2017.02.22-22.53.59:428][ 73]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/' was aborted.
+[2017.02.22-22.53.59:477][ 73]LogExit: Editor shut down
+[2017.02.22-22.53.59:478][ 73]LogExit: Transaction tracking system shut down
+[2017.02.22-22.53.59:600][ 73]LogObj: Freed 0b from 0 cluster array pools.
+[2017.02.22-22.53.59:600][ 73]LogExit: Object subsystem successfully closed.
+[2017.02.22-22.53.59:614][ 73]LogD3D11RHI: Shutdown
+[2017.02.22-22.53.59:614][ 73]LogD3D11RHI: CleanupD3DDevice
+[2017.02.22-22.53.59:616][ 73]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (240)
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module StatsViewer (239)
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (238)
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module CrashTracker (237)
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module SceneOutliner (236)
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module WidgetCarousel (235)
+[2017.02.22-22.53.59:646][ 73]LogModuleManager: Shutting down and abandoning module AddContentDialog (234)
+[2017.02.22-22.53.59:656][ 73]LogDirectoryWatcher: A directory notification for 'E:/Unreal Engine/UE_4.13/FeaturePacks/' was aborted.
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module GameplayTags (233)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module EditorWidgets (232)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module CollectionManager (231)
+[2017.02.22-22.53.59:665][ 73]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/Collections/' was aborted.
+[2017.02.22-22.53.59:665][ 73]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/Developers/StudentUser/Collections/' was aborted.
+[2017.02.22-22.53.59:665][ 73]LogDirectoryWatcher: A directory notification for 'E:/Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Saved/Collections/' was aborted.
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module FoliageEdit (230)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module LandscapeEditor (229)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (228)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module ActorPickerMode (227)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module GeometryMode (226)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module TextureAlignMode (225)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module BspMode (224)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module HardwareSurvey (223)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (222)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module SequenceRecorder (221)
+[2017.02.22-22.53.59:665][ 73]LogModuleManager: Shutting down and abandoning module AutomationWorker (220)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (219)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module PlacementMode (218)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (217)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (216)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (215)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (214)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (213)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module Media (212)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (211)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (210)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module CharacterAI (209)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module SmartSnapping (208)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module SessionServices (207)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module ViewportSnapping (206)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module ViewportInteraction (205)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module LogVisualizer (204)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (203)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module IntroTutorials (202)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (201)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (200)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (199)
+[2017.02.22-22.53.59:666][ 73]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (198)
+[2017.02.22-22.54.00:590][ 73]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (197)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (196)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (195)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module NiagaraEditor (194)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module MergeActors (193)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module SizeMap (192)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module TreeMap (191)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module ReferenceViewer (190)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module LocalizationService (189)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (188)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module HardwareTargeting (187)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (186)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module UndoHistory (185)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module UserFeedback (184)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module XmlParser (183)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module Blutility (182)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (181)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (180)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module InputBindingEditor (179)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (178)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module SettingsEditor (177)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module ProjectLauncher (176)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module SessionFrontend (175)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module ProfilerClient (174)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (173)
+[2017.02.22-22.54.00:591][ 73]LogModuleManager: Shutting down and abandoning module DeviceManager (172)
+[2017.02.22-22.54.00:645][ 73]LogModuleManager: Shutting down and abandoning module AutomationController (171)
+[2017.02.22-22.54.00:645][ 73]LogModuleManager: Shutting down and abandoning module AutomationWindow (170)
+[2017.02.22-22.54.00:645][ 73]LogModuleManager: Shutting down and abandoning module Layers (169)
+[2017.02.22-22.54.00:645][ 73]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (168)
+[2017.02.22-22.54.00:645][ 73]LogModuleManager: Shutting down and abandoning module DetailCustomizations (167)
+[2017.02.22-22.54.00:645][ 73]LogModuleManager: Shutting down and abandoning module PackagesDialog (166)
+[2017.02.22-22.54.00:672][ 73]LogModuleManager: Shutting down and abandoning module AnimGraph (165)
+[2017.02.22-22.54.00:672][ 73]LogModuleManager: Shutting down and abandoning module Persona (164)
+[2017.02.22-22.54.00:672][ 73]LogModuleManager: Shutting down and abandoning module Kismet (163)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module GraphEditor (162)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module ClassViewer (161)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module Toolbox (160)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module ModuleUI (159)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module MovieSceneTools (158)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module OutputLog (157)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module GammaUI (156)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module Documentation (155)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module Niagara (154)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (153)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module AnalyticsET (152)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module PortalServices (151)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module PortalRpc (150)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module MessagingRpc (149)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module GameplayDebugger (148)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module AITestSuite (147)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module AIModule (146)
+[2017.02.22-22.54.00:675][ 73]LogModuleManager: Shutting down and abandoning module ProfilerService (145)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module TaskGraph (144)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SubstanceEditor (143)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SlateRemote (142)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SteamVRController (141)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SteamVR (140)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (139)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (138)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module OculusLibrary (137)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module OculusInput (136)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (135)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module CableComponent (134)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (133)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (131)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module ShadowMocapEditor (130)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module ShadowMocap (129)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module RunebergVRPlugin (128)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module GestureTrackerVR (127)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2017.02.22-22.54.00:798][ 73]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2017.02.22-22.54.00:820][ 73]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2017.02.22-22.54.00:821][ 73]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2017.02.22-22.54.00:822][ 73]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2017.02.22-22.54.00:822][ 73]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2017.02.22-22.54.00:922][ 73]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2017.02.22-22.54.01:023][ 73]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2017.02.22-22.54.01:024][ 73]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2017.02.22-22.54.01:026][ 73]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2017.02.22-22.54.01:026][ 73]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2017.02.22-22.54.01:026][ 73]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2017.02.22-22.54.01:026][ 73]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2017.02.22-22.54.01:026][ 73]LogModuleManager: Shutting down and abandoning module Core (67)
+[2017.02.22-22.54.01:026][ 73]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2017.02.22-22.54.01:026][ 73]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.02.22-22.54.01:026][ 73]LogDirectoryWatcher: A directory notification for '../../../../../Unreal Projects/FletchersCaseMVPPrototypeMerge 4.13 - 2/Content/' was aborted.
+[2017.02.22-22.54.01:026][ 73]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.02.22-22.54.01:026][ 73]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Marketplace/GestureTrackerVR/Content/' was aborted.
+[2017.02.22-22.54.01:027][ 73]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2017.02.22-22.54.01:136][ 73]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2017.02.22-22.54.01:136][ 73]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2017.02.22-22.54.01:136][ 73]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2017.02.22-22.54.01:136][ 73]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2017.02.22-22.54.01:145][ 73]LogDerivedDataCache: Shutdown
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2017.02.22-22.54.01:146][ 73]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2017.02.22-22.54.01:146][ 73]LogOnline:Display: Unloading online subsystem: NULL
+[2017.02.22-22.54.01:147][ 73]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2017.02.22-22.54.01:147][ 73]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.02.22-22.54.01:147][ 73]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC00EEF6-47AD-F97A-5C85-2BBCF34D5D5E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=d3a1cbff49d2d51d44007da64a03ba10%7C11c5ab5681ba4d129972dce7e99fe80a%7Cd16070ab-418c-45f1-9218-3fd00383b244&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.02.22-22.54.01:157][ 73]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2017.02.22-22.54.01:157][ 73]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.02.22-22.54.01:157][ 73]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.02.22-22.54.01:157][ 73]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.02.22-22.54.01:157][ 73]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.02.22-22.54.01:158][ 73]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.02.22-22.54.01:159][ 73]LogExit: Exiting.
+[2017.02.22-22.54.01:169][ 73]Log file closed, 02/22/17 14:54:01
